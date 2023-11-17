@@ -13,7 +13,7 @@ useHead({
     </header>
 
     <section class="blog-posts">
-      <!-- <ul class="blog-posts-list">
+      <ul class="blog-posts-list">
         <li class="blog-post-item">
           <a href="https://bit.ly/ADLink-Docs">
 
@@ -183,7 +183,7 @@ useHead({
 
           </a>
         </li>
-      </ul> -->
+      </ul>
     </section>
   </article>
 </template>

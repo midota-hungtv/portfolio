@@ -1,4 +1,5 @@
 <script setup>
+// import DarkToggle from '../components/DarkToggle.vue';
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n({ useScope: 'global' })
 
@@ -17,7 +18,7 @@ useHead({
     ],
   link: [
     {
-      rel: 'icon', type: 'image/png', href: '../images/icon.png',
+      rel: 'icon', type: 'image/png', href: '../images/avatar-hung.png',
     },
     {
       rel: 'preconnect',
@@ -55,6 +56,7 @@ useHead({
       <Navbar />
       <slot />
     </div>
-    <CookieBar />
+    <!-- <CookieBar /> -->
+    <!-- <DarkToggle /> -->
   </main>
 </template>

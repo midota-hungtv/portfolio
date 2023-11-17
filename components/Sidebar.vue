@@ -4,6 +4,19 @@ let isOpen = ref(false)
 function toggleMenu() {
   isOpen = !isOpen
 }
+
+function dowloadCV() {
+  try {
+    const link = document.createElement('a');
+    link.href = './CV.pdf';
+    link.setAttribute('download', 'CV_TRAN_VAN_HUNG.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  } catch (error) {
+    console.error('Error downloading file:', error);
+  }
+}
 </script>
 
 <template>
@@ -18,7 +31,7 @@ function toggleMenu() {
           TRAN VAN HUNG
         </h1>
 
-        <p class="title text-center xl:block flex items-center justify-center gap-1" style="cursor: pointer;">
+        <p class="title text-center xl:block flex items-center justify-center gap-1" style="cursor: pointer;" @click="dowloadCV">
           <span class="xl:after:content-[''] after:content-[',']">WEB DEVELOPER</span>
           <span>DOWNLOAD MY CV</span>
         </p>

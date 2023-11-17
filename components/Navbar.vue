@@ -21,7 +21,7 @@
         <NuxtLink to="/portfolio" class="navbar-link">
           {{ $t('pageTitles.portfolio') }}
         </NuxtLink>
-      </li>
+      </li> -->
 
       <li class="navbar-item">
         <NuxtLink to="/blog" class="navbar-link">
@@ -29,7 +29,7 @@
         </NuxtLink>
       </li>
 
-      <li class="navbar-item">
+      <!-- <li class="navbar-item">
         <NuxtLink to="/github" class="navbar-link">
           {{ $t('pageTitles.github') }}
         </NuxtLink>
