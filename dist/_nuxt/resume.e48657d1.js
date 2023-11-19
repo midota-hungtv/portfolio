@@ -1,1 +1,0 @@
-import{u as t,c as a,a as e,t as r,o as c}from"./entry.d2c7c2cc.js";const o={class:"resume active","data-page":"resume"},l={class:"h2 article-title"},_={__name:"resume",setup(i){return t({title:"Resume"}),(s,u)=>(c(),a("article",o,[e("header",null,[e("h2",l,r(s.$t("pageTitles.resume")),1)])]))}};export{_ as default};

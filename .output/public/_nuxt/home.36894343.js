@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper.c27b6911.js";import{c as o,N as s,a,o as c}from"./entry.eb88117d.js";const r={},n={class:"py-20 px-10 text-center"},m=a("div",{class:"mt-5 mx-auto text-center opacity-25 text-sm"}," [Home Layout] ",-1);function _(e,d){return c(),o("main",n,[s(e.$slots,"default"),m])}const f=t(r,[["render",_]]);export{f as default};
