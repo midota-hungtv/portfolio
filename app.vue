@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <LoadingPage v-show="!loadingPage" />
+  <!-- <LoadingPage v-show="!loadingPage" /> -->
 
   <NuxtLayout>
     <NuxtPage transition />
