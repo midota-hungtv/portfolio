@@ -49,23 +49,11 @@ function dowloadCV() {
 
       <ul class="contacts-list">
         <li class="contact-item">
-          <div class="icon-box">
-            <ion-icon name="logo-twitter" />
-          </div>
-
-          <div class="contact-info">
-            <p class="contact-title">
-              Twitter
-            </p>
-
-            <a href="https://twitter.com/Hng77767866" class="contact-link" target="_blank">TRAN VAN HUNG</a>
-          </div>
-        </li>
-
-        <li class="contact-item">
-          <div class="icon-box">
-            <ion-icon name="logo-github" />
-          </div>
+          <a href="https://github.com/midota-hungtv" class="contact-link" target="_blank">
+            <div class="icon-box">
+              <ion-icon name="logo-github" />
+            </div>
+          </a>
 
           <div class="contact-info">
             <p class="contact-title">
@@ -77,9 +65,27 @@ function dowloadCV() {
         </li>
 
         <li class="contact-item">
-          <div class="icon-box">
-            <ion-icon name="logo-linkedin" />
+          <a href="https://twitter.com/Hng77767866" class="contact-link" target="_blank">
+            <div class="icon-box">
+              <ion-icon name="logo-twitter" />
+            </div>
+          </a>
+
+          <div class="contact-info">
+            <p class="contact-title">
+              Twitter
+            </p>
+
+            <a href="https://twitter.com/Hng77767866" class="contact-link" target="_blank">TRAN VAN HUNG</a>
           </div>
+        </li>
+
+        <li class="contact-item">
+          <a href="https://linkedin.com/in/tran-van-hung-7b37301a9" class="contact-link" target="_blank">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin" />
+            </div>
+          </a>
 
           <div class="contact-info">
             <p class="contact-title">
@@ -91,16 +97,19 @@ function dowloadCV() {
         </li>
 
         <li class="contact-item">
-          <div class="icon-box">
-            <ion-icon name="location-outline" />
-          </div>
+          <a href="https://www.google.com/maps/place/Vi%E1%BB%87t+Nam/@15.7939252,105.9102589,6z/data=!3m1!4b1!4m6!3m5!1s0x31157a4d736a1e5f:0xb03bb0c9e2fe62be!8m2!3d14.058324!4d108.277199!16zL20vMDFjcmQ1?entry=ttu" class="contact-link" target="_blank">
+            <div class="icon-box">
+              <ion-icon name="location-outline" />
+            </div>
+          </a>
 
           <div class="contact-info">
             <p class="contact-title">
               Location
             </p>
-
-            <address>VIETNAM</address>
+            <a href="https://www.google.com/maps/place/Vi%E1%BB%87t+Nam/@15.7939252,105.9102589,6z/data=!3m1!4b1!4m6!3m5!1s0x31157a4d736a1e5f:0xb03bb0c9e2fe62be!8m2!3d14.058324!4d108.277199!16zL20vMDFjcmQ1?entry=ttu" class="contact-link" target="_blank">
+              <address>VIET NAM</address>
+            </a>
           </div>
         </li>
       </ul>
