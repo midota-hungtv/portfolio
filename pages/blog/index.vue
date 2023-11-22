@@ -1,20 +1,20 @@
 <script setup>
 useHead({
-  title: 'Blog',
-})
+  title: "Blog",
+});
 </script>
 
 <template>
   <article class="blog active" data-page="blog">
     <header>
       <h2 class="h2 article-title">
-        {{ $t('pageTitles.blog') }}
+        {{ $t("pageTitles.blog") }}
       </h2>
     </header>
 
     <section class="blog-posts">
       <ul class="blog-posts-list">
-        <li class="blog-post-item">
+        <!-- <li class="blog-post-item">
           <a href="https://bit.ly/ADLink-Docs">
 
             <figure class="blog-banner-box">
@@ -98,17 +98,22 @@ useHead({
             </div>
 
           </a>
-        </li>
+        </li> -->
 
         <li class="blog-post-item">
-          <a href="https://blog.agcrisbp.my.id/posts/how-to-calculated-age-using-javascript">
-
+          <a
+            href="https://blog.agcrisbp.my.id/posts/how-to-calculated-age-using-javascript"
+            target="_blank"
+          >
             <figure class="blog-banner-box">
-              <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1685699222636/2e36749d-ac8c-42a1-9d01-151492cb1ab2.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="How To Calculated Age For Date of Birth Using JavaScript" loading="lazy">
+              <img
+                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1685699222636/2e36749d-ac8c-42a1-9d01-151492cb1ab2.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+                alt="How To Calculated Age For Date of Birth Using JavaScript"
+                loading="lazy"
+              />
             </figure>
 
             <div class="blog-content">
-
               <div class="blog-meta">
                 <p class="blog-category">Guide</p>
 
@@ -117,18 +122,19 @@ useHead({
                 <time datetime="2023-04-14">Apr 14, 2023</time>
               </div>
 
-              <h3 class="h3 blog-item-title">How To Calculated Age For Date of Birth Using JavaScript</h3>
+              <h3 class="h3 blog-item-title">
+                How To Calculated Age For Date of Birth Using JavaScript
+              </h3>
 
               <p class="blog-text">
-                You can use this script to calculate your ages or hours of support.
+                You can use this script to calculate your ages or hours of
+                support.
               </p>
-
             </div>
-
           </a>
         </li>
 
-        <li class="blog-post-item">
+        <!-- <li class="blog-post-item">
           <a href="https://blog.agcrisbp.my.id/posts/php-redirect-using-get-parameter">
 
             <figure class="blog-banner-box">
@@ -182,7 +188,7 @@ useHead({
             </div>
 
           </a>
-        </li>
+        </li> -->
       </ul>
     </section>
   </article>
