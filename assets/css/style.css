@@ -1326,7 +1326,7 @@ textarea.contact::-webkit-resizer { display: none; }
    */
 
   main {
-    margin-top: 57px;
+    margin-top: 40px;
     margin-bottom: 100px;
   }
 
@@ -1706,7 +1706,7 @@ textarea.contact::-webkit-resizer { display: none; }
    * MAIN
    */
 
-  main { margin-bottom: 56px; }
+  main { margin-bottom: 40px; }
 
   .main-content {
     position: relative;
