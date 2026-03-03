@@ -7,7 +7,7 @@
     "start": "node .output/server/index.mjs",
     "lint": "eslint .",
     "postinstall": "nuxi prepare",
-    "generate": "nuxi generate",
+    "generate": "NITRO_PRESET=static nuxi generate",
     "deploy": "nuxt generate && gh-pages -d dist"
   },
   "devDependencies": {
