@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.9.0",
+  "packageManager": "pnpm@9.0.0",
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
@@ -16,7 +16,6 @@
     "@iconify-json/carbon": "^1.1.18",
     "@iconify-json/twemoji": "^1.1.11",
     "@iconify/vue": "^4.1.1",
-    "@intlify/nuxt3": "^0.2.4",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@pinia/nuxt": "^0.4.11",
@@ -43,5 +42,13 @@
     "vue-cookies": "^1.8.3",
     "vue-meta": "^2.4.0",
     "vue-router": "^4.2.4"
+  },
+  "resolutions": {
+    "rollup-plugin-visualizer": "^5.12.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "rollup-plugin-visualizer": "^5.12.0"
+    }
   }
 }
