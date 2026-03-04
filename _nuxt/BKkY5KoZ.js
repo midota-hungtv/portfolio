@@ -1,0 +1,1 @@
+import{u as s}from"./CUBnpIOm.js";import{c as a,a as e,t as r,o}from"./QmP3qyJV.js";const c={class:"resume active","data-page":"resume"},l={class:"h2 article-title"},_={__name:"resume",setup(i){return s({title:"Resume"}),(t,m)=>(o(),a("article",c,[e("header",null,[e("h2",l,r(t.$t("pageTitles.resume")),1)])]))}};export{_ as default};

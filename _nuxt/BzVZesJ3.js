@@ -1,1 +1,0 @@
-import{_ as o}from"./DlAUqK2U.js";import{o as s,c as a,V as r,a as c}from"./BEdn0CZW.js";const n={},m={class:"py-20 px-10 text-center"};function l(t,e){return s(),a("main",m,[r(t.$slots,"default"),e[0]||(e[0]=c("div",{class:"mt-5 mx-auto text-center opacity-25 text-sm"}," [Home Layout] ",-1))])}const i=o(n,[["render",l]]);export{i as default};
